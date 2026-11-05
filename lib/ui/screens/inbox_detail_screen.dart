@@ -75,8 +75,8 @@ class _InboxDetailScreenState extends State<InboxDetailScreen> {
                 children: [
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Expanded(
+                    children: const [
+                      Expanded(
                         flex: 1,
                         child: Text('To'),
                       ),
@@ -84,7 +84,7 @@ class _InboxDetailScreenState extends State<InboxDetailScreen> {
                         flex: 2,
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               'Bill Gates',
                               style: TextStyle(fontWeight: FontWeight.bold),

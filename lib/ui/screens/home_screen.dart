@@ -135,19 +135,19 @@ class _GCashHomeScreenState extends State<GCashHomeScreen> {
                     const SizedBox(width: 16),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Text(
+                      children: const [
+                        Text(
                           'Marian',
                           style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
                         ),
-                        const SizedBox(height: 4),
-                        const Text(
+                        SizedBox(height: 4),
+                        Text(
                           '09090200000',
                           style: TextStyle(color: Colors.white70, fontSize: 14),
                         ),
-                        const SizedBox(height: 4),
+                        SizedBox(height: 4),
                         Row(
-                          children: const [
+                          children: [
                             Icon(Icons.verified, color: Colors.white, size: 16),
                             SizedBox(width: 4),
                             Text(
